@@ -1,0 +1,40 @@
+# =============== STM32 (CubeMX + Keil MDK) ===============
+# Ignore auto-generated Drivers folder (same level as .ioc)
+Drivers/
+
+# Ignore Keil MDK build artifacts
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/*.axf
+MDK-ARM/*.bin
+MDK-ARM/*.hex
+MDK-ARM/*.map
+MDK-ARM/*.htm
+MDK-ARM/*.lnp
+MDK-ARM/*.sct
+MDK-ARM/*.tra
+MDK-ARM/*.lst
+MDK-ARM/*.d
+MDK-ARM/*.o
+
+# Keep essential project configuration files
+!*.ioc
+!*.uvprojx
+!*.uvoptx
+
+# =============== General & Editor ===============
+*.log
+*.pcd
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+*~
+.#*
+
+# IDE
+.vscode/
+.idea/
+.project
+.cproject
+CMakeLists.txt.user
