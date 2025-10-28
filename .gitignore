@@ -17,17 +17,14 @@ MDK-ARM/*.lst
 MDK-ARM/*.d
 MDK-ARM/*.o
 
-# Keil MDK 项目文件
+# Ignore Keil MDK IDE-specific files
 *.uvoptx
-*.uvprojx
 *.uvguix.*
 *.scvd
 
-
 # Keep essential project configuration files
 !*.ioc
-!*.uvprojx
-!*.uvoptx
+!*.uvprojx    # ← 只保留这个，去掉 !*.uvoptx
 
 # =============== General & Editor ===============
 *.log
