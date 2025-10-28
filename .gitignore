@@ -17,6 +17,13 @@ MDK-ARM/*.lst
 MDK-ARM/*.d
 MDK-ARM/*.o
 
+# Keil MDK 项目文件
+*.uvoptx
+*.uvprojx
+*.uvguix.*
+*.scvd
+
+
 # Keep essential project configuration files
 !*.ioc
 !*.uvprojx
